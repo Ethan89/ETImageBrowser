@@ -1,0 +1,19 @@
+PODS:
+  - ETImageBrowser (0.0.1):
+    - Masonry (~> 1.0.2)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - ETImageBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  ETImageBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ETImageBrowser: c1be91250cd18d59379065109f2bc1a5fec84ba2
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: d1cdd20661b408fa6679e7493653fbd42f343eab
+
+COCOAPODS: 1.2.1
