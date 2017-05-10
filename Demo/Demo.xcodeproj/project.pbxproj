@@ -14,6 +14,11 @@
 		AA3F39E91EA61A4800A1EC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3F39E71EA61A4800A1EC3F /* Main.storyboard */; };
 		AA3F39EB1EA61A4800A1EC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3F39EA1EA61A4800A1EC3F /* Assets.xcassets */; };
 		AA3F39EE1EA61A4800A1EC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3F39EC1EA61A4800A1EC3F /* LaunchScreen.storyboard */; };
+		AA6880451EA747360016EBD5 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6880441EA747360016EBD5 /* CollectionViewCell.m */; };
+		AA68804A1EA74D740016EBD5 /* argame01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA6880461EA74D740016EBD5 /* argame01.jpg */; };
+		AA68804B1EA74D740016EBD5 /* argame02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA6880471EA74D740016EBD5 /* argame02.jpg */; };
+		AA68804C1EA74D740016EBD5 /* idback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA6880481EA74D740016EBD5 /* idback.jpg */; };
+		AA68804D1EA74D740016EBD5 /* namecard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA6880491EA74D740016EBD5 /* namecard.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,12 @@
 		AA3F39EA1EA61A4800A1EC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA3F39ED1EA61A4800A1EC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA3F39EF1EA61A4800A1EC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6880431EA747360016EBD5 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		AA6880441EA747360016EBD5 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		AA6880461EA74D740016EBD5 /* argame01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = argame01.jpg; sourceTree = "<group>"; };
+		AA6880471EA74D740016EBD5 /* argame02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = argame02.jpg; sourceTree = "<group>"; };
+		AA6880481EA74D740016EBD5 /* idback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = idback.jpg; sourceTree = "<group>"; };
+		AA6880491EA74D740016EBD5 /* namecard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = namecard.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +66,7 @@
 		AA3F39D21EA61A4800A1EC3F = {
 			isa = PBXGroup;
 			children = (
+				AA6880361EA73C8E0016EBD5 /* Resource */,
 				AA3F39DD1EA61A4800A1EC3F /* Demo */,
 				AA3F39DC1EA61A4800A1EC3F /* Products */,
 				AF27AE9D58777254FF521FB1 /* Pods */,
@@ -77,6 +89,8 @@
 				AA3F39E21EA61A4800A1EC3F /* AppDelegate.m */,
 				AA3F39E41EA61A4800A1EC3F /* ViewController.h */,
 				AA3F39E51EA61A4800A1EC3F /* ViewController.m */,
+				AA6880431EA747360016EBD5 /* CollectionViewCell.h */,
+				AA6880441EA747360016EBD5 /* CollectionViewCell.m */,
 				AA3F39E71EA61A4800A1EC3F /* Main.storyboard */,
 				AA3F39EA1EA61A4800A1EC3F /* Assets.xcassets */,
 				AA3F39EC1EA61A4800A1EC3F /* LaunchScreen.storyboard */,
@@ -92,6 +106,17 @@
 				AA3F39DF1EA61A4800A1EC3F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA6880361EA73C8E0016EBD5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AA6880461EA74D740016EBD5 /* argame01.jpg */,
+				AA6880471EA74D740016EBD5 /* argame02.jpg */,
+				AA6880481EA74D740016EBD5 /* idback.jpg */,
+				AA6880491EA74D740016EBD5 /* namecard.jpg */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		AF27AE9D58777254FF521FB1 /* Pods */ = {
@@ -165,7 +190,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA3F39EE1EA61A4800A1EC3F /* LaunchScreen.storyboard in Resources */,
+				AA68804A1EA74D740016EBD5 /* argame01.jpg in Resources */,
 				AA3F39EB1EA61A4800A1EC3F /* Assets.xcassets in Resources */,
+				AA68804C1EA74D740016EBD5 /* idback.jpg in Resources */,
+				AA68804B1EA74D740016EBD5 /* argame02.jpg in Resources */,
+				AA68804D1EA74D740016EBD5 /* namecard.jpg in Resources */,
 				AA3F39E91EA61A4800A1EC3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +256,7 @@
 			files = (
 				AA3F39E61EA61A4800A1EC3F /* ViewController.m in Sources */,
 				AA3F39E31EA61A4800A1EC3F /* AppDelegate.m in Sources */,
+				AA6880451EA747360016EBD5 /* CollectionViewCell.m in Sources */,
 				AA3F39E01EA61A4800A1EC3F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
